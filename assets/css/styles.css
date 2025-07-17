@@ -149,8 +149,8 @@ body {
 }
 
 .profile-img {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     border: 4px solid #3b82f6;
     box-shadow: 0 15px 40px rgba(59, 130, 246, 0.3);
@@ -571,7 +571,6 @@ section {
     font-size: 1rem;
     color: #475569;
     margin-bottom: 2rem;
-    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -579,7 +578,6 @@ section {
 .qualifications-content {
     display: grid;
     gap: 2rem;
-    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -927,6 +925,44 @@ section {
     .project-card {
         height: 360px;
     }
+}
+
+.hero-social {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.social-link {
+    width: 48px;
+    height: 48px;
+    background: var(--bg-card);
+    border: 2px solid var(--border-light);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    background: var(--accent-blue);
+    color: var(--text-primary);
+    border-color: var(--accent-blue);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px var(--shadow-blue);
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 /* Smooth Scrolling */
