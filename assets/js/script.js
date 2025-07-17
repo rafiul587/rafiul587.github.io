@@ -69,7 +69,7 @@ const projects = [
         "placeholderSrc": "https://i.ibb.co/qgbZcf5/playque-productivity-app.jpg",
         "imageSrc": ["https://i.ibb.co.com/N2fhkTgj/diu-results-feature.png"],
         "link": "https://play.google.com/store/apps/details?id=com.qubartech.diuresult",
-        "source": "https://github.com/rafiul587/PlayQue"
+        "source": "https://github.com/rafiul587/diuresults"
     },
     {
         "id": 8,
@@ -78,7 +78,7 @@ const projects = [
         "category": ["Kotlin", "Jetpack Compose", "API, Google Maps", "FCM", "Google Cloud", "AWS"],
         "placeholderSrc": "https://i.ibb.co.com/bjCyY71B/domride-feature.png",
         "imageSrc": ["https://i.ibb.co.com/bjCyY71B/domride-feature.png"],
-        "link": "https://play.google.com/store/apps/details?id=com.qubartech.playque",
+        "link": "https://play.google.com/store/apps/details?id=com.software.domride.driver",
         "source": "https://github.com/rafiul587/PlayQue"
     }
 ];
