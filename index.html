@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Rafiul Islam, a Computer Science Engineering student and Android Developer.">
+    <meta name="keywords"
+        content="Rafiul Islam, Portfolio, Android Developer, Computer Science, CSE, Dhaka International University, Mobile Apps">
+    <meta name="author" content="Md Rafiul Islam">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
     <title>Rafiul Islam - Portfolio</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
@@ -13,9 +22,9 @@
             <h2 class="logo">Rafiul Islam</h2>
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#qualifications">Qualifications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger" id="hamburger">
@@ -26,41 +35,38 @@
         </div>
     </nav>
 
-    <!-- Home Section -->
-    <section id="home" class="home">
-        <div class="home-content">
-            <img src="https://via.placeholder.com/200x200/4A90E2/FFFFFF?text=RI" alt="Profile Picture" class="profile-img">
-            <h1>Hi, I'm Rafiul Islam</h1>
-            <p>Computer Science Engineering Student & Android Developer</p>
-            <div class="buttons">
-                <a href="#contact" class="btn primary">Contact Me</a>
-                <a href="#" class="btn secondary">Download CV</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Hero/About Section -->
+    <section id="home" class="hero-about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I am a Computer Science Engineering student at Dhaka International University with a passion for Android development. I have been learning programming for the past 3 years and enjoy creating mobile applications.</p>
-                    <p>My goal is to become a skilled software developer and contribute to innovative technology solutions.</p>
+            <div class="hero-about-content">
+                <div class="hero-intro">
+                    <img src="https://rafiul.qubartech.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favater.cd8b6f28.webp&w=3840&q=75"
+                        alt="Profile Picture" class="profile-img">
+                    <div class="intro-text">
+                        <h1>Hi, I'm <span class="name-highlight">Rafiul Islam</span></h1>
+                        <h2 class="profession">Android Developer</h2>
+                        <p class="intro-description">I am a passionate Computer Science Engineering student at Dhaka International University with a love for Android development. I have been learning programming for the past 3 years and enjoy creating innovative mobile applications that solve real-world problems.</p>
+                        <div class="buttons">
+                            <a href="#contact" class="btn primary">Contact Me</a>
+                            <a href="#" class="btn secondary">Download CV</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="about-info">
-                    <div class="info-item">
-                        <strong>Name:</strong> Md Rafiul Islam
-                    </div>
-                    <div class="info-item">
-                        <strong>Education:</strong> CSE Student at DIU
-                    </div>
-                    <div class="info-item">
-                        <strong>Location:</strong> Rajshahi, Bangladesh
-                    </div>
-                    <div class="info-item">
-                        <strong>Email:</strong> rafiul587@gmail.com
-                    </div>
+                
+                        <div class="stats">
+                            <div class="stat-item">
+                                <span class="stat-number">43+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Client Satisfaction</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
@@ -106,26 +112,70 @@
     <section id="projects" class="projects">
         <div class="container">
             <h2 class="section-title">My Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>Calculator App</h3>
-                    <p>A simple calculator app built with Java for Android. Features basic arithmetic operations.</p>
-                    <div class="project-tech">Java, Android</div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="android">Android</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+            </div>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualifications Section -->
+    <section id="qualifications" class="qualifications">
+        <div class="container">
+            <h2 class="section-title">My Qualifications</h2>
+            <p class="qualifications-subtitle">Here are my work experience and education qualifications.</p>
+            
+            <div class="qualifications-content">
+                <div class="qualification-section">
+                    <h3>Work Experience</h3>
+                    <div class="qualification-item">
+                        <div class="qualification-icon">
+                            <img src="https://rafiul.qubartech.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwork.14d27b6d.webp&w=640&q=75"
+                                alt="Work">
+                        </div>
+                        <div class="qualification-content">
+                            <h4>Fiverr (Level 2 Seller)</h4>
+                            <p class="qualification-role">Android app developer</p>
+                            <p class="qualification-location">Dhaka, Bangladesh</p>
+                            <p class="qualification-date">25-12-2021 - Present</p>
+                            <p class="qualification-description">I am a level 2 seller on Fiverr and have completed 43+ projects
+                                with all 5-star ratings. All my clients are super satisfied with my service as they
+                                expressed with their heartwarming feedback. <a href="https://fiverr.com/rafiul587" target="_blank" rel="noopener noreferrer">View Profile</a></p>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <h3>To-Do List</h3>
-                    <p>A task management app that allows users to add, edit, and delete tasks with local storage.</p>
-                    <div class="project-tech">Kotlin, SQLite</div>
-                </div>
-                <div class="project-card">
-                    <h3>Weather App</h3>
-                    <p>Shows current weather information using a free weather API with a clean interface.</p>
-                    <div class="project-tech">JavaScript, API</div>
-                </div>
-                <div class="project-card">
-                    <h3>Personal Website</h3>
-                    <p>This portfolio website built with HTML, CSS, and JavaScript to showcase my work.</p>
-                    <div class="project-tech">HTML, CSS, JS</div>
+
+                <div class="qualification-section">
+                    <h3>Education</h3>
+                    <div class="qualification-item">
+                        <div class="qualification-icon">
+                            <img src="https://rafiul.qubartech.com/_next/image?url=%2Fimages%2Fedu_logo%2Fdiu_logo.png&w=640&q=75"
+                                alt="DIU">
+                        </div>
+                        <div class="qualification-content">
+                            <h4>Dhaka International University</h4>
+                            <p class="qualification-role">Computer Science Engineering</p>
+                            <p class="qualification-location">Dhaka, Bangladesh</p>
+                            <p class="qualification-date">2022 - Present</p>
+                        </div>
+                    </div>
+
+                    <div class="qualification-item">
+                        <div class="qualification-icon">
+                            <img src="https://rafiul.qubartech.com/_next/image?url=%2Fimages%2Fedu_logo%2Frpi_logo.png&w=640&q=75"
+                                alt="RPI">
+                        </div>
+                        <div class="qualification-content">
+                            <h4>Rajshahi Polytechnic Institute</h4>
+                            <p class="qualification-role">Electromedical Technology</p>
+                            <p class="qualification-location">Rajshahi, Bangladesh</p>
+                            <p class="qualification-date">2015 - 2019</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -167,6 +217,7 @@
         </div>
     </footer>
 
-    <script src="assets/js/simple-script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
