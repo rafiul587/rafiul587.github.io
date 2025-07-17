@@ -6,7 +6,7 @@
 
 /* CSS Variables for consistent colors */
 :root {
-    /* Professional Color Palette */
+    /* Primary Colors */
     --primary-dark: #0f172a;
     --primary-medium: #1e293b;
     --primary-light: #334155;
@@ -37,7 +37,6 @@
     --shadow-dark: rgba(15, 23, 42, 0.5);
 }
 
-/* Reset and Basic Styles */
 * {
     margin: 0;
     padding: 0;
@@ -57,7 +56,6 @@ body {
     padding: 0 20px;
 }
 
-/* Navigation Bar */
 .navbar {
     background: #1e293b;
     color: white;
@@ -106,7 +104,7 @@ body {
     background: rgba(59, 130, 246, 0.1);
 }
 
-/* Hamburger Menu (for mobile) */
+
 .hamburger {
     display: none;
     flex-direction: column;

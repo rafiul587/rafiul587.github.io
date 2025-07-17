@@ -3,16 +3,16 @@
 // Projects Data
 const projects = [
     {
-        "id": 11,
+        "id": 1,
         "name": "Achiev",
-        "category": ["html", "css", "react", "tailwind"],
+        "category": ["Kotlin", "Jetpack Compose"],
         "placeholderSrc": "https://i.ibb.co/3yvHcZK/project20.jpg",
         "imageSrc": ["https://i.ibb.co.com/DHQFThwB/achiev-feature.png"],
         "link": "https://tailwind-toggling-dark.vercel.app/",
         "source": "https://github.com/TahirAhmad01/tailwind-toggling-dark"
     },
     {
-        "id": 12,
+        "id": 2,
         "name": "HomeBudget",
         "category": ["Kotlin", "Jetpack compose", "Hilt", "Coroutines", "Compose Navigation(single activity)", "Firebase (as backend)"],
         "placeholderSrc": "https://i.ibb.co/LzV8ZYS/project21.png",
@@ -22,9 +22,9 @@ const projects = [
         "description": "This project is built using popular JavaScript technologies such as React, Redux, and Tailwind CSS, and it interacts with the GitHub API to fetch a user's profile details, followers, following, and repositories. The application presents the fetched data in an intuitive and visually appealing user interface.The GitHub profile information, including the user's profile picture, username and other relevant details, is displayed prominently using a profile card component. The user's followers, following, and repositories are also displayed in separate cards, providing a summary of the corresponding data, such as counts and relevant details."
     },
     {
-        "id": 13,
+        "id": 3,
         "name": "Prayer Times",
-        "category": ["html", "react", "tailwind"],
+        "category": ["Java", "XML", "Retrofit", "Hilt", "MVVM", "Coroutines", "Flow", "Room"],
         "placeholderSrc": "https://i.ibb.co/YbmP4HT/Screenshot-110-1.jpg",
         "imageSrc": ["https://i.ibb.co.com/cKbChJyH/prayer-times-feature.png"],
         "link": "https://imgbb-api-test.vercel.app/",
@@ -32,7 +32,7 @@ const projects = [
         "description": "Immerse yourself in the world of seamless image uploading and management with imgBB API Test, a dynamic web application built using React and styled with the elegance of Tailwind CSS. This intuitive platform allows users to effortlessly upload, explore, and manage images through the robust imgBB API. Experience a fluid user interface, powered by React's cutting-edge capabilities, coupled with the responsive and visually appealing design crafted using Tailwind CSS. imgBB API Test simplifies image handling, providing a smooth and efficient experience for both developers and end-users alike."
     },
     {
-        "id": 14,
+        "id": 4,
         "name": "MVP Chat App",
         "category": ["Kotlin", "XML", "Coroutine", "Flow", "MVVM", "Supabase", "Ktor", "Glide", "Hilt", "CameraX"],
         "placeholderSrc": "https://i.ibb.co/18hWzPv/Screenshot-111.jpg",
@@ -42,7 +42,7 @@ const projects = [
         "description": "Dive into the future of web development with Next.js 13, leveraging the power of TypeScript and Redux, in this groundbreaking project. Seamlessly blending the flexibility of TypeScript with the efficiency of Redux state management, this application offers an unparalleled development experience. Harness the latest Next.js capabilities to build dynamic, server-rendered React applications with ease. Utilizing Redux, manage your application state effortlessly, ensuring a smooth and synchronized user experience across the entire application. With Next.js 13, TypeScript, and Redux combined, you're equipped to create high-performance, type-safe, and scalable web applications that redefine the standards of modern web development."
     },
     {
-        "id": 15,
+        "id": 5,
         "name": "Gooal",
         "category": ["Java", "Football API", "FCM", "Cloud Functions", "Exoplayer"],
         "placeholderSrc": "https://i.ibb.co/6RNy15B/Screenshot-112.jpg",
@@ -52,7 +52,7 @@ const projects = [
         "description": "Gooal is a live football match update app. Users can see daily fixtures of all major leagues, watch highlights, add teams as favourite, and get notified of match events like start time, goal, end time, etc."
     },
     {
-        "id": 16,
+        "id": 6,
         "name": "PlayQue",
         "description": "PlayQue - Track Playlists is a productivity app to track your long list of favorite playlists. Do you face the same problem that you get motivated to watch/complete an educational/tech playlist but after watching a few videos you completely forget about the playlist? Here comes the PlayQue - Playlist Tracker where you can add your favorite playlist and track how many videos you have completed, add a reminder notification for every day or custom days. You can either copy a playlist and paste the URL into the app to add a playlist or you can directly search and add any playlist from any channel from the search option in the app",
         "category": ["kotlin", "jetpack-compose", "retrofit", "hilt", "coroutine", "paging"],
@@ -62,7 +62,7 @@ const projects = [
         "source": "https://github.com/rafiul587/PlayQue"
     },
     {
-        "id": 17,
+        "id": 7,
         "name": "DIU Results",
         "description": "A result checker app for Dhaka International University where students can check their results in detail. Apart from that they can get the faculty list as well as check other bachmates results.",
         "category": ["Kotlin", "Jetpack Compose", "Retrofit", "MVVM", "Offline Cache"],
@@ -72,7 +72,7 @@ const projects = [
         "source": "https://github.com/rafiul587/PlayQue"
     },
     {
-        "id": 18,
+        "id": 8,
         "name": "DomRide",
         "description": "DomRide is a ride-share app similar to Uber, based in the Dominican Republic.",
         "category": ["Kotlin", "Jetpack Compose", "API, Google Maps", "FCM", "Google Cloud", "AWS"],
